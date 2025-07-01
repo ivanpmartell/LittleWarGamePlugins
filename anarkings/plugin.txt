@@ -1,0 +1,10 @@
+Name::Anarkings
+Description::
+Makes client exclusively run the Anarkings mod.
+Image:: anarkings.png
+Image_x:: 232
+Image_y:: 70
+Image_width:: 800
+Image_height:: 200
+Scripts::
+anarkings.js
