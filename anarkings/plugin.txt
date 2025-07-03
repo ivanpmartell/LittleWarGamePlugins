@@ -1,3 +1,4 @@
+Version::0.1
 Name::Anarkings
 Description::
 Makes client exclusively run the Anarkings mod.
