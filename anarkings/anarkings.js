@@ -37,16 +37,18 @@ anarkings.init = {
         var spPlayButton = document.getElementById("singleplayerButton");
         const existingSPPlayHandler = spPlayButton.onclick;
         spPlayButton.onclick = function () {
-            addons.anarkingsFilter();
+            anarkings.filter();
             if (existingSPPlayHandler)
                 existingSPPlayHandler(event);
         }
         var mpPlayButton = document.getElementById("lobbyCreateButton");
         const existingMPPlayHandler = mpPlayButton.onclick;
         mpPlayButton.onclick = function () {
-            addons.anarkingsFilter();
+            anarkings.filter();
             if (existingMPPlayHandler)
                 existingMPPlayHandler(event);
         }
     }
 };
+
+anarkings.init.function();
